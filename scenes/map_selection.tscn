@@ -1,0 +1,28 @@
+[gd_scene format=3 uid="uid://bhvfwb48cfujy"]
+
+[node name="MapSelection" type="Node2D"]
+
+[node name="TextureRect" type="TextureRect" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="MapSelector" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Map1" type="Button" parent="MapSelector"]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Map2" type="Button" parent="MapSelector"]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Map3" type="Button" parent="MapSelector"]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
