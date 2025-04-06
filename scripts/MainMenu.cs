@@ -32,7 +32,7 @@ public partial class MainMenu : Control
 
     public void Settings()
     {
-        GetTree().ChangeSceneToFile("res://scenes/settings.tscn");
+        // GetTree().ChangeSceneToFile("res://scenes/settings.tscn");
     }
 
 }
