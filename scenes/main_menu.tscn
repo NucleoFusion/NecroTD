@@ -1,0 +1,40 @@
+[gd_scene load_steps=3 format=3 uid="uid://c4kpipifgupfn"]
+
+[ext_resource type="Script" uid="uid://dwhc2ktesvuwu" path="res://scripts/MainMenu.cs" id="1_ekxnf"]
+[ext_resource type="Texture2D" uid="uid://bau4jkmi8av2u" path="res://assets/titlescreen.png" id="1_l6cm7"]
+
+[node name="MainMenu" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_ekxnf")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 0
+offset_left = 4.0
+offset_top = 2.0
+offset_right = 1540.0
+offset_bottom = 1026.0
+scale = Vector2(0.749307, 0.626855)
+texture = ExtResource("1_l6cm7")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 0
+offset_left = 119.0
+offset_top = 240.0
+offset_right = 189.0
+offset_bottom = 341.0
+
+[node name="Start" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 40
+text = "Start"
+
+[node name="Quit" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 40
+text = "Quit"
+
+[node name="Settings" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 40
+text = "Settings"
